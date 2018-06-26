@@ -1,11 +1,23 @@
 {
   "name": "elasticdump-play",
   "version": "1.0.0",
-  "description": "",
+  "description": "Použití Elasticdump pro kopírování a úpravu indexů.",
   "main": "index.js",
+  "dependencies": {
+    "elasticdump": "^3.3.18"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNovotny/elasticdump-play.git"
+  },
+  "author": "Pavel Novotny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelNovotny/elasticdump-play/issues"
+  },
+  "homepage": "https://github.com/PavelNovotny/elasticdump-play#readme"
 }

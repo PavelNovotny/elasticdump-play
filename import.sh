@@ -1,4 +1,5 @@
 #!/bin/bash
+# Restore index and data from a file:
 
 import_analyzer() {
 cat ./data/$1_analyzer.json | jq 'tojson' \

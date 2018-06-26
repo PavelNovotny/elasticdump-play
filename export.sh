@@ -1,5 +1,5 @@
 #!/bin/bash
-# Backup index data to a file:
+# Backup index and data to a file:
 
 export_mapping() {
 ./node_modules/elasticdump/bin/elasticdump \
